@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
     //che do spread
    <TextView
-       app:layout_constraintHorizontal_chainStyle="spread_inside"
+       app:layout_constraintHorizontal_chainStyle="packed"
        android:background="#f20"
        android:layout_width="100dp"
        android:layout_height="60dp"
