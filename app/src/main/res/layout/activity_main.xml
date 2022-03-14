@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    //che do spread
    <TextView
+       app:layout_constraintHorizontal_chainStyle="spread_inside"
        android:background="#f20"
        android:layout_width="100dp"
        android:layout_height="60dp"
