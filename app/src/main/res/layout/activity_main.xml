@@ -9,7 +9,7 @@
    <TextView
        app:layout_constraintHorizontal_chainStyle="packed"
        android:background="#f20"
-       android:layout_width="100dp"
+       android:layout_width="0dp"
        android:layout_height="60dp"
        android:textColor="#ffff"
        android:text="A"
@@ -19,11 +19,12 @@
        app:layout_constraintTop_toTopOf="parent"
        app:layout_constraintBottom_toBottomOf="parent"
        app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintEnd_toStartOf="@id/textViewB"/>
+       app:layout_constraintEnd_toStartOf="@id/textViewB"
+       app:layout_constraintHorizontal_weight="1"/>
 
     <TextView
         android:background="#3F51B5"
-        android:layout_width="100dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
         android:textColor="#ffff"
         android:text="B"
@@ -33,11 +34,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/textViewA"
-        app:layout_constraintEnd_toStartOf="@id/textViewC"/>
+        app:layout_constraintEnd_toStartOf="@id/textViewC"
+        app:layout_constraintHorizontal_weight="2"/>
 
     <TextView
         android:background="#FFC107"
-        android:layout_width="100dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
         android:textColor="#ffff"
         android:text="C"
@@ -47,6 +49,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/textViewB"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="4"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
